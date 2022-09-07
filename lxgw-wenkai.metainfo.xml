@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2022 Young Xu <xuthus5@gmail.com> -->
+<component type="font">
+  <id>lxgw</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>OFL-1.1</project_license>
+  <name>霞鹜文楷</name>
+  <summary>霞鹜文楷</summary>
+  <url type="homepage">https://github.com/lxgw/LxgwWenKai</url>
+  <update_contact>xuthus5@gmail.com</update_contact>
+</component>
