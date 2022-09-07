@@ -8,7 +8,7 @@ Summary:        LXGW WenKai fonts
 
 License:        OFL
 URL:            https://github.com/lxgw/LxgwWenKai
-Source0:        lxgw-wenkai-v%{version}.tar.gz
+Source0:        https://github.com/lxgw/LxgwWenKai/releases/download/v%{version}/lxgw-wenkai-v%{version}.tar.gz
 Source1:        %{name}-fontconfig.conf
 Source2:        %{fontname}.metainfo.xml
 
