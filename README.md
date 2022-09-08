@@ -12,14 +12,13 @@ fedora36+/centos8+:
 
 ```bash
 dnf copr enable xuthus5/lxgw-wenkai-fonts
-sudo dnf install xuthus5/lxgw-wenkai-fonts
+sudo dnf install lxgw-wenkai-fonts
 ```
 
-centos7:
+other yum/dnf package system, such as centos7:
 
-find rpm package from Builds>Build ID>Result>os-release>*.rpm
-such as:
+find rpm package from **Builds>Build ID>Result>os-release>lxgx-wenkai-fonts-$version.$release.noarch.rpm**
 
 ```bash
-sudo rpm -ivh https://download.copr.fedorainfracloud.org/results/xuthus5/lxgw-wenkai-fonts/epel-7-x86_64/04815995-lxgw-wenkai-fonts/lxgw-wenkai-fonts-1.240-1.el7.noarch.rpm
+sudo rpm -ivh https://download.copr.fedorainfracloud.org/results/xuthus5/lxgw-wenkai-fonts/epel-7-x86_64/04816025-lxgw-wenkai-fonts/lxgw-wenkai-fonts-1.240-1.el7.noarch.rpm
 ```
