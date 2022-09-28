@@ -2,7 +2,7 @@
 %global fontconf 60-%{fontname}.conf
 
 Name:           %{fontname}-fonts
-Version:        1.240
+Version:        1.245.1
 Release:        1%{?dist}
 Summary:        LXGW WenKai fonts
 
@@ -23,7 +23,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 
 %prep
-%autosetup -n lxgw-wenkai-v1.240
+%autosetup -n lxgw-wenkai-v1.245.1
 
 
 %build
@@ -54,5 +54,7 @@ appstream-util validate-relax --nonet \
 %{_datadir}/metainfo/%{fontname}.metainfo.xml
 
 %changelog
+* Wed Sep 28 2022 Young Xu <xuthus5@gmail.com> - 1.245.1
+- release tag: https://github.com/lxgw/LxgwWenKai/releases/tag/v1.245.1
 * Wed Sep 7 2022 Young Xu <xuthus5@gmail.com> - 1.240
 - release tag: https://github.com/lxgw/LxgwWenKai/releases/tag/v1.240
