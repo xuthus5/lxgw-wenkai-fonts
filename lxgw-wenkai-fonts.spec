@@ -23,7 +23,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 
 %prep
-%autosetup -n lxgw-wenkai-v1.245.1
+%autosetup -n lxgw-wenkai-v1.250
 
 
 %build
@@ -54,6 +54,8 @@ appstream-util validate-relax --nonet \
 %{_datadir}/metainfo/%{fontname}.metainfo.xml
 
 %changelog
+* Sun Apr 2 2023 Young Xu <xuthus5@gmail.com> - 1.250
+- release tag: https://github.com/lxgw/LxgwWenKai/releases/tag/v1.250
 * Wed Sep 28 2022 Young Xu <xuthus5@gmail.com> - 1.245.1
 - release tag: https://github.com/lxgw/LxgwWenKai/releases/tag/v1.245.1
 * Wed Sep 7 2022 Young Xu <xuthus5@gmail.com> - 1.240
