@@ -2,7 +2,7 @@
 %global fontconf 60-%{fontname}.conf
 
 Name:           %{fontname}-fonts
-Version:        1.245.1
+Version:        1.250
 Release:        1%{?dist}
 Summary:        LXGW WenKai fonts
 
